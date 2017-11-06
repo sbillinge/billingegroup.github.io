@@ -1,6 +1,5 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 /*
 	Strongly Typed by HTML5 UP
@@ -1075,7 +1074,7 @@
 
 	body {
 		background: #f0f0f0;
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Source Sans Pro';
 		font-weight: 300;
         color: #202020;
 	}
@@ -1092,7 +1091,7 @@
 		}
 
 	input, textarea, select {
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Source Sans Pro';
 		font-weight: 300;
 		color: #777;
 	}
