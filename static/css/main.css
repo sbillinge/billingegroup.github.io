@@ -1,7 +1,7 @@
 @import url("font-awesome.min.css");
 /*@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");*/
 /*@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=GillSans');
 
 
 /*
@@ -1077,9 +1077,9 @@
 
 	body {
 		background: #f0f0f0;
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'GillSans', sans-serif;
 		font-weight: 300;
-        color: #202020;
+        color: #777;
 	}
 
 		body.is-loading * {
@@ -1094,15 +1094,20 @@
 		}
 
 	input, textarea, select {
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'GillSans', sans-serif;
 		font-weight: 300;
-		color: #777;
+		color: #666;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
 		font-weight: 600;
 		text-transform: uppercase;
 		color: #888;
+	}
+	h2, h3, h4, h5, h6 {
+		font-weight: 400;
+		/* text-transform: uppercase;*/
+		color: #777;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1654,10 +1659,10 @@
 	}
 
 		#header h1 {
-			font-family: 'Arvo';
+			font-family: 'GillSans', sans-serif;
 			font-weight: 700;
-			color: #ed786a;
-			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+			color: #004368;
+			/* text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);*/
             padding-bottom: 1em;
 		}
 
@@ -1787,7 +1792,7 @@
             h1 {
                 font-size: 1.85em;
                 font-weight: 400;
-                letter-spacing: 4px;
+                letter-spacing: 1px;
                 /* margin: 0 0 0.25em 0; */
                 line-height: 1.35em;
             }
@@ -1795,14 +1800,14 @@
             h2 {
                 font-size: 1.45em;
                 font-weight: 400;
-                letter-spacing: 4px;
+                letter-spacing: 1px;
                 /* margin: 0 0 0.25em 0; */
                 line-height: 1.25em;
             }
 
 			h3 {
                 font-size: 1.15em;
-				letter-spacing: 2px;
+				letter-spacing: 1px;
                 /* margin: 0 0 1.25em 0; */
 			}
 
